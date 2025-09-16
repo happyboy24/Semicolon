@@ -1,12 +1,13 @@
-/*DISPLAY "Enter your Account balance:" to the user.
-READ the user's input and STORE it in a variable called balance.
-CHECK if balance is less than 100.
-If TRUE, DISPLAY "Low".
-CHECK if balance is greater than or equal to 100 AND less than or equal to 1000.
-If TRUE, DISPLAY "Medium".
-CHECK if balance is greater than or equal to 1000.
-If TRUE, DISPLAY "High".
-END*\
+/*display "enter your account balance:" to the user.
+read the user's input and store it in a variable called balance.
+check if balance is less than 100.
+if true, display "low".
+check if balance is greater than or equal to 100 and less than or equal to 1000.
+if true, display "medium".
+check if balance is greater than or equal to 1000.
+if true, display "high".
+
+*\
 
 
 import java.util.Scanner;

@@ -1,12 +1,13 @@
-/*Ask the user to enter their attendance percentage.
-Store the value in a variable called percent.
-Ask the user to enter their average score.
-Store the value in a variable called score.
-Check eligibility:
-If percent is greater than or equal to 75 AND score is greater than or equal to 75:
-Print Eligible.
-Else (if either condition is not met):
-Print Not Eligible.
+ /*ask the user to enter their attendance percentage.
+store the value in a variable called percent.
+ask the user to enter their average score.
+store the value in a variable called score.
+check eligibility:
+if percent is greater than or equal to 75 and score is greater than or equal to 75:
+print eligible.
+else (if either condition is not met):
+print not eligible.
+
 *\
 
 

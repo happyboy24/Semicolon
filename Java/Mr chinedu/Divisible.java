@@ -1,14 +1,15 @@
-/*​​Ask the user to enter a number.
-​Store the number in a variable called number.
-​Check for divisibility:
-​If number is divisible by 3 AND number is divisible by 5:
-​Print "is divisible by both 3 and 5".
-​Else if number is divisible by 3:
-​Print "is divisible by 3".
-​Else if number is divisible by 5:
-​Print "is divisible by 5".
-​Else (if none of the above are true):
-​Print "not divisible".
+/*​​ask the user to enter a number.
+store the number in a variable called number.
+check for divisibility:
+if number is divisible by 3 and number is divisible by 5:
+print "is divisible by both 3 and 5".
+else if number is divisible by 3:
+print "is divisible by 3".
+else if number is divisible by 5:
+print "is divisible by 5".
+else (if none of the above are true):
+print "not divisible".
+
 *\
 ​
 

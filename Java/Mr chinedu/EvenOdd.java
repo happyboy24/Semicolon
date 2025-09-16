@@ -1,10 +1,11 @@
-​/*Ask the user to enter a number.
-​Store the number in a variable called number.
-​Check if the number is even or odd:
-​If number divided by 2 has a remainder of 0:
-​Print a message stating that number is an even number.
-​Else (if it doesn't have a remainder of 0):
-​Print a message stating that number is an odd number.
+​/*ask the user to enter a number.
+store the number in a variable called number.
+check if the number is even or odd:
+if number divided by 2 has a remainder of 0:
+print a message stating that number is an even number.
+else (if it doesn't have a remainder of 0):
+print a message stating that number is an odd number.
+
 ​*\
 
 

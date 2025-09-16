@@ -5,24 +5,21 @@ public class Calculator{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        double number1;
-        double number2;
-        String operator;
-        double result = 0.0;
-        boolean isValidOperation = true;
-
-        System.out.println("Enter the first number:");
-        number1 = scanner.nextDouble();
+       
+       System.out.println("Enter the first number:");
+        int number1 = scanner.nextInt();
 
        
         scanner.nextLine();
        
         System.out.println("Enter an operator (+, -, *, /):");
-        operator = scanner.nextLine();
+       String operator = scanner.nextLine();
 
         System.out.println("Enter the second number:");
-        number2 = scanner.nextDouble();
+        int number2 = scanner.nextInt();
 
+        int result = 0;
+        boolean isValidOperation = true;
 
         if (operator.equals("+")) {
             result = number1 + number2;

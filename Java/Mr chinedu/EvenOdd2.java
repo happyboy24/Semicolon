@@ -1,18 +1,17 @@
-/*​​Ask the user to enter a number.
-​Store this value in a variable called number.
-​Check the number:
-​If number is 0:
-​Print "Zero".
-​Else if number is greater than 0:
-​If number is divisible by 2 (the remainder of number divided by 2 is 0):
-​Print number followed by " is a Positive even number".
-​Else (it's not even):
-​Print number followed by " is a Positive odd number".
-​Else if number is less than 0:
-​If number is divisible by 2 (the remainder of number divided by 2 is 0):
-​Print number followed by " is a Negative even number".
-​Else (it's not even):
-​Print number followed by " is a Negative odd number".
+/*ask the user to enter a number.
+store this value in a variable called number.
+check the number if number is 0:
+print "zero".
+else if number is greater than 0:
+if number is divisible by 2 (the remainder of number divided by 2 is 0):
+print number followed by " is a positive even number".
+else (it's not even):
+print number followed by " is a positive odd number".
+else if number is less than 0:
+if number is divisible by 2 (the remainder of number divided by 2 is 0):
+print number followed by " is a negative even number".
+else (it's not even):
+print number followed by " is a negative odd number".
 ​*\
 
 
