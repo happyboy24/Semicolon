@@ -8,8 +8,8 @@ import java.util.Scanner;
    int div = 2;
    int sum = 0;
    
-   while(num > 1){
-   while(num % div != 0){
+   while(num != 1){
+   while(num % div == 0){
   div++;
 }
 sum = sum + div;

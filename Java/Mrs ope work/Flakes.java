@@ -11,8 +11,9 @@ public class Flakes{
        int result = 0;
 
       while (x < 12) {
+           x++;
        result = num * x;
-         x++;
+        
           System.out.printf(" %d * %d = %d %n", num, x, result);
 }
 
