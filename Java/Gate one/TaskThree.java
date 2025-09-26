@@ -1,0 +1,14 @@
+public class TaskThree{
+public static void main(String[]args){
+
+int number = 10;
+int count = 1;
+for(count = 1; count <= 10; count = count+2){
+System.out.println(count);  
+
+}
+
+}
+
+}
+

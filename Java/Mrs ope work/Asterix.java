@@ -1,11 +1,11 @@
 public class Asterix {
     public static void main(String[] args) {
-        int rows = 6;
+        int rows = 5;
 
                 for (int i = 1; i <= rows; i++) {
             
             for (int j = 1; j <= i; j++) {
-                System.out.print("a ");
+                System.out.print("* ");
             }
 
            
@@ -14,7 +14,7 @@ public class Asterix {
             }
 
                 for (int g = 1; g <= i; g++) {
-                System.out.print("b ");
+                System.out.print("* ");
             }
             System.out.println();
         }
