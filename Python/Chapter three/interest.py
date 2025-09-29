@@ -2,10 +2,6 @@ principal = 1000.00
 rate = 0.05          
 years = 30          
 
-
-
-
-
 for year in range(1, years + 1):
    
     principal = principal * (1 + rate)
