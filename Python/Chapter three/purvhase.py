@@ -1,14 +1,14 @@
    
 
         purchase_price_cents = int(round(purchase_price_dollars * 100))
-    except (ValueError, TypeError):
+    
         print("Error: Invalid input for purchase price.")
-        return
+        
 
    
     if not 0 < purchase_price_cents <= 100:
         print("Error: Purchase price must be between $0.01 and $1.00.")
-        return
+        
     
     
     payment_cents = 100

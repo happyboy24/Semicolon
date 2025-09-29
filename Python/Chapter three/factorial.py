@@ -27,7 +27,7 @@ import math
 
 
 
-print("--- User Input Factorial Calculator ---")
+print(" ")
 calculate_and_display_factorial()
 print("\n" + "="*50 + "\n")
 
@@ -50,10 +50,3 @@ for n in test_values:
 
 
 
-print("\n--- Observation on Python's Limit ---")
-print("Did you find any integer input for which Python could not produce an integer factorial value?")
-print("\nAnswer:")
-print("Python's standard integer type (`int`) automatically handles arbitrarily large integers, limited only by the system's memory.")
-print("Unlike languages with fixed-size integers (e.g., a 64-bit integer), Python will not overflow and fail to produce an *integer* factorial for any of these values (10, 20, 30, 100, 1000, etc.).")
-print("The calculated results for 100! and 1000! are huge but perfectly accurate integer values.")
-print("You would need to calculate a factorial so large that it consumed all available RAM before Python would genuinely fail to produce the integer result.")

@@ -36,16 +36,16 @@ while miles_driven != -1.0:
         else:
             print("Gallons used must be a positive number. This entry will be ignored.")
 
-    except ValueError:
+    
         print("Invalid input for gallons. This entry will be ignored.")
     
     
     print("\nEnter the miles driven for the next tankful, or enter -1 to quit: ")
     miles_input = input()
 
-    try:
+    
         miles_driven = float(miles_input)
-    except ValueError:
+    
         
         miles_driven = -1.0 
 

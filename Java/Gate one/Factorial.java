@@ -15,7 +15,7 @@ public class Factorial {
             for (int a = 1; a <= number; a++) {
                 factorial *= a;
             }
-            System.out.println("Factorial of " + number + " is: " + factorial);
+            System.out.println("Factorial of " + number9: + " is: " + factorial);
         }
     }
 }

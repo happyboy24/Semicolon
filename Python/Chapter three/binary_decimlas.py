@@ -1,8 +1,7 @@
-    if not isinstance(binary_int, int) or binary_int < 0:
-        return "Invalid input. Please enter a positive integer consisting only of 0s and 1s."
+   
 
     decimal_value = 0
-    power_of_2 = 1  # This represents 2^0, 2^1, 2^2, and so on.
+    power_of_2 = 1 
     
     temp_binary = binary_int
     
