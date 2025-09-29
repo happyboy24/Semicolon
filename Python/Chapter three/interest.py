@@ -2,8 +2,8 @@ principal = 1000.00
 rate = 0.05          
 years = 30          
 
-
-
+print(f"{'Year':<5}{'Amount on Deposit':>20}")
+print("-" * 25)
 
 
 for year in range(1, years + 1):
