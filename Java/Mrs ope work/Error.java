@@ -13,3 +13,6 @@ if (age >= 65){
 
 } 
 }
+
+
+/* the code was without any calling braces and it has a bug *\
