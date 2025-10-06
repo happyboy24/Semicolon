@@ -1,40 +1,28 @@
-    largest = None
-    second_largest = None
-    
-    print("Please enter 10 numbers.")
-    
-    for i in range(1, 11):
-        while True:
-            
-                num = float(input(f"Enter number {i}: "))
-                break 
+total = 0
+product = 1
 
-                print("Invalid input. Please enter a valid number.")
+reference_number = int(input("Enter a number: "))
+minimum = reference_number
+maximum = reference_number
 
-                if largest is None:
-                        largest = num
-        elif second_largest is None:
-            
-            if num > largest:
-                second_largest = largest
-                largest = num
-            else:
-                second_largest = num
-        elif num > largest:
-            
-            second_largest = largest
-            largest = num
-        elif num > second_largest:
-            
-            second_largest = num
-            
-   
-    if largest is None:
-        print("No numbers were entered.")
-    elif second_largest is None:
-        print(f"Only one number ({largest}) was entered. The largest is {largest}.")
-    else:
-        print("\n--- Results ---")
-        print(f"The largest value entered is: {largest}")
-        print(f"The second largest value entered is: {second_largest}")
+for number in range(3):
+	number = int(input("Enter a number: "))
+	total = total + number 
+	product = product * number
 
+	if(number < minimum):
+		minimum = number
+	if(number > maximum):
+		maximum = number
+
+total += reference_number
+product *= reference_number
+
+	
+average = total / 4
+
+print("The sum of the numbers entered is: " + str(total))
+print("The average of the numbers entered is: " + str(average))
+print("The product of the number entered is: " + str(product))
+print("The smallest number is: " + str(minimum))
+print("The largest number is: " + str(maximum))

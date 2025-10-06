@@ -1,4 +1,4 @@
-numbers = []
+numbers = 0
 total = 0
 product = 1
 NUM_INTEGERS = 4
@@ -9,7 +9,7 @@ for i in range(NUM_INTEGERS):
        
             num_input = int(input(f"Enter integer {i + 1}: "))
             
-                        numbers.append(num_input)
+                        
             
            
             total += num_input
