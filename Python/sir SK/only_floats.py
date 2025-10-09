@@ -1,12 +1,14 @@
-def only_floats(a,b):
-	count = 0
-	if isinstance (a, float):
-		count += 1
-	if isinstance (b, float):
-		count += 1
+def only_float(a, b):
+    if isinstance(a, float) and isinstance(b, float):
+        return 2
+    elif isinstance(a, float) or isinstance(b, float):
+        return 1
+    else:
+        return 0
 
-	return count
 
-print(only_floats(12.1,23))
-print(only_floats(12.1,23.5))
-print(only_floats(12,23))
+number1 = float(input("Enter number one: "));
+number2 = float(input("Enter number two: "));
+output = number1, number2
+
+print(output);
