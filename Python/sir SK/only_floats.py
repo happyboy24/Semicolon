@@ -1,8 +1,8 @@
 def only_floats(a,b):
 	count = 0
-	if isinstance (a, float):
+	if  (a, float):
 		count += 1
-	if isinstance (b, float):
+	if  (b, float):
 		count += 1
 
 	return count
