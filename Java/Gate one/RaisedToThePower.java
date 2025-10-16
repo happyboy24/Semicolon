@@ -6,7 +6,7 @@ public class RaisedToThePower {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter the base number: ");
-        int number = input.nextInt();
+        int base = input.nextInt();
 
         System.out.print("Enter the exponent: ");
         int exponent = input.nextInt();
@@ -16,17 +16,17 @@ public class RaisedToThePower {
         if (exponent >= 0) {
             for (int i = 1; i <= exponent; i++) {
 
-	result *= number;
+	result *= base;
         }
         System.out.println(base + " raised to the power " + exponent + " is: " + result);
         } 
 	else {
         double fractResult = 1.0;
         for (int i = 1; i <= -exponent; i++) {
-        fractResult /= number;
+        fractResult /= base;
         }
         System.out.println(base + " raised to the power " + exponent + " is: " + fractResult);
         }
 
     }
-}
+} 
