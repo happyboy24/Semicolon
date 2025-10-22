@@ -3,17 +3,23 @@ import java.util.Scanner;
   public static void main(String[]args){
    Scanner input = new Scanner(System.in); 
  System.out.print("Enter a number:");
-  int num = input.nextInt();
+  int num1 = input.nextInt();
+
+System.out.print("Enter a number:");
+  int num2 = input.nextInt();
 
    int div = 2;
    int sum = 0;
-   
-   while(num != 1){
-   while(num % div == 0){
+   int Div = 2;
+
+   while(num1 != 1 && num2 != 1){
+   while(num1 % div == 0 && num2 % div == 0){
   div++;
 }
 sum = sum + div;
-num = num / div;
+num1 = num1 / div + Div;
+num2 = num2 / div + Div;
+
 
 }
    System.out.printf("The lcm is: %d", sum );

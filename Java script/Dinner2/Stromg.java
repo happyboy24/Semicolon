@@ -28,12 +28,12 @@ import java.util.Scanner;
 }
 
 if(addmod == number){
- System.out.printf(" %d is a strong number " + addmod);
+ System.out.printf(" is a strong number " + number);
 
 }
 
 else{
-  System.out.printf(" %d is not a strong number %n " + addmod);
+  System.out.printf("is not a strong number %n " + number);
 
 }
 
