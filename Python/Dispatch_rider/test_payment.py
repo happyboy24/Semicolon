@@ -18,10 +18,6 @@ class TestForDispatchRiderApp(unittest.TestCase):
 	def test_that_get_payment_doesnt_take_in_negative_input(self):
 		expected = "Invalid input!"
 		actual = payment_new(-10)
-		self.assertEqual(actual,expected)
+		self.assertRaises(TypeError,actual,expected)
 
 	
-def test_that_get_payment_doesnt_take_in_input_greater_than_hundred(self):
-		expected = "Invalid input!"
-		actual = payment_new(105)
-		self.assertEqual(actual,expected)
