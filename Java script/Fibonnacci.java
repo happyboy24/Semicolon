@@ -1,9 +1,9 @@
 public class Fibonnacci{
 	public static void main(String [] args){
 
-		int nextNumber = 0;
+		int nextNumber = 1;
 		
-		for (int index = 0; index < 20; index++) {
+		for (int index = 0; index <= 20; index++) {
 			int sum = index + nextNumber;
 			System.out.println(sum);
 			nextNumber = index;
